@@ -36,6 +36,20 @@ namespace SearchingTechniques
                 Console.WriteLine("Unable to find two point sum");
             }
 
+            //fot two point array technique with hasing and binary search 
+
+            bool result1 = SearchingTechniques.TwoPointerSumHashing.TwoPointerSumWithHasing(arr, target);
+            if (result1)
+            {
+                Console.WriteLine("Sum of two integer is found");
+            }
+            else
+            {
+                Console.WriteLine("Sum of the array is not found using hasing with two point sum");
+
+            }
+
+
         }
 
     }
