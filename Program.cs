@@ -8,9 +8,11 @@ namespace SearchingTechniques
         {
             int[] arr = { 1, 2, 3, 4, 5, 6 };
             int key = 5;
+            int target = 9;
 
+            //for binary search 
             int result = LinearSearch.Search(arr, arr.Length, key);
-            int binary_result = BinarySearch.Binary(arr,0,5,3);
+            int binary_result = BinarySearch.Binary(arr, 0, 5, 3);
 
             if (result == -1)
             {
@@ -20,9 +22,33 @@ namespace SearchingTechniques
             else
             {
                 Console.WriteLine("Element is present at Index:" + result);
-                Console.WriteLine("Using Binary search found at"+binary_result);
+                Console.WriteLine("Using Binary search found at" + binary_result);
+            }
+            //for two point array technique
+            bool output = TwoPointerTechnique.TwoPointSum(arr, target);
+            if (output)
+            {
+                Console.WriteLine("Two point sum is found");
 
             }
+            else
+            {
+                Console.WriteLine("Unable to find two point sum");
+            }
+
+            //fot two point array technique with hasing and binary search 
+
+            bool result1 = SearchingTechniques.TwoPointerSumHashing.TwoPointerSumWithHasing(arr, target);
+            if (result1)
+            {
+                Console.WriteLine("Sum of two integer is found");
+            }
+            else
+            {
+                Console.WriteLine("Sum of the array is not found using hasing with two point sum");
+
+            }
+
 
         }
 

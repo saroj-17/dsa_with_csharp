@@ -1,0 +1,15 @@
+/home/saroj/Desktop/dsa/dsa_with_csharp/bin/Debug/net6.0/dsa_with_csharp
+/home/saroj/Desktop/dsa/dsa_with_csharp/bin/Debug/net6.0/dsa_with_csharp.deps.json
+/home/saroj/Desktop/dsa/dsa_with_csharp/bin/Debug/net6.0/dsa_with_csharp.runtimeconfig.json
+/home/saroj/Desktop/dsa/dsa_with_csharp/bin/Debug/net6.0/dsa_with_csharp.dll
+/home/saroj/Desktop/dsa/dsa_with_csharp/bin/Debug/net6.0/dsa_with_csharp.pdb
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.csproj.AssemblyReference.cache
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.AssemblyInfoInputs.cache
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.AssemblyInfo.cs
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.csproj.CoreCompileInputs.cache
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.dll
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/refint/dsa_with_csharp.dll
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.pdb
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/dsa_with_csharp.genruntimeconfig.cache
+/home/saroj/Desktop/dsa/dsa_with_csharp/obj/Debug/net6.0/ref/dsa_with_csharp.dll
