@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using dsa_with_csharp;
 
 namespace SearchingTechniques
 {
@@ -46,7 +48,32 @@ namespace SearchingTechniques
             else
             {
                 Console.WriteLine("Sum of the array is not found using hasing with two point sum");
+            }
 
+            //for queue datastructure 
+            Queue1<int> queue = new Queue1<int>(5); 
+
+            try
+            {
+                queue.Enqueue1(10); 
+                queue.Enqueue1(20); 
+                queue.Enqueue1(30); 
+                queue.Enqueue1(40); 
+                queue.Enqueue1(50); 
+
+
+                //display 
+                queue.Display(); 
+
+                queue.Dequeue1(); 
+                queue.Dequeue1(); 
+
+                queue.Display(); 
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error occured at {e.Message}");
             }
 
 
