@@ -76,6 +76,22 @@ namespace SearchingTechniques
                 Console.WriteLine($"Error occured at {e.Message}");
             }
 
+            //stack 
+
+            Stack1 s = new Stack1(5); 
+            s.Push(20); 
+            s.Push(30); 
+            s.Push(50); 
+
+            s.Display(); 
+            s.Pop(); 
+            s.Pop(); 
+
+            s.Push(70); 
+            s.Push(80); 
+            s.Push(90);
+
+            s.Display(); 
 
         }
 
